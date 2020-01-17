@@ -3,7 +3,7 @@
 This repository holds all the necessary information for running the
 `montclair-transmogrifier` to create a whitelabeled version of
 montclair, montclair-pwa-ios, and montclair-pwa-android for
-Memphis, NC.
+Memphis, TN.
 
 ## Configuring
 
