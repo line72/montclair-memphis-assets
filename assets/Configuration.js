@@ -12,7 +12,7 @@
  * Licensed Under the GPLv3
  *******************************************/
 
-import Transloc3Parser from './Transloc3Parser';
+import TransitappParser from './TransitappParser';
 
 class Configuration {
     constructor() {
@@ -20,7 +20,11 @@ class Configuration {
         this.agencies = [
             {
                 name: 'Routes',
-                parser: new Transloc3Parser(559, 'https://memphis.gotransitapp.com/api/no.php/3/')
+                parser: new TransitappParser(
+                    'https://memphis.gotransitapp.com/api/no.php',
+                    '985ccba313378282587ea58f36b82d82795f5d5d20d688931c459c4fccdc7b2b',
+                    'MATA|Memphis'
+                )
             }
         ];
     }
