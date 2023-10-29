@@ -17,6 +17,10 @@ import TransitappParser from './TransitappParser';
 class Configuration {
     constructor() {
         this.center = [35.139401, -90.032042];
+        this.tileserver = {
+            url: 'https://memphis.gotransitapp.com/tiles/{z}/{x}/{y}.png',
+            subdomains: ''
+        };
         this.agencies = [
             {
                 name: 'Routes',
